@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <file path="/Dummy.txt" changelist="79cb4006-ca50-4743-8f18-6c6cb79d52e8" time="1492017704447" ignored="false" />
-    <file path="/file_upload.php" changelist="79cb4006-ca50-4743-8f18-6c6cb79d52e8" time="1492021121505" ignored="false" />
+    <file path="/file_upload.php" changelist="79cb4006-ca50-4743-8f18-6c6cb79d52e8" time="1492023603453" ignored="false" />
     <file path="/index.php" changelist="79cb4006-ca50-4743-8f18-6c6cb79d52e8" time="1492021568822" ignored="false" />
     <file path="/script.js" changelist="79cb4006-ca50-4743-8f18-6c6cb79d52e8" time="1492022810073" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="31" selection-start="96" selection-end="96" vertical-scroll-proportion="0.041162226">
+            <state line="2" column="31" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -49,16 +49,16 @@
       <file leaf-file-name="file_convert.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/file_convert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="28" selection-start="588" selection-end="588" vertical-scroll-proportion="-7.8461537">
+            <state line="5" column="39" selection-start="196" selection-end="196" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file_upload.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="file_upload.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/file_upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="57" selection-start="106" selection-end="106" vertical-scroll-proportion="-1.6666666">
+            <state line="78" column="33" selection-start="2812" selection-end="2812" vertical-scroll-proportion="1.7109678">
               <folding />
             </state>
           </provider>
@@ -82,10 +82,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/includes/file_upload.php" />
-        <option value="$PROJECT_DIR$/controller/file_convert.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/controller/file_convert.php" />
+        <option value="$PROJECT_DIR$/includes/file_upload.php" />
       </list>
     </option>
   </component>
@@ -237,7 +237,7 @@
     <option name="totallyTimeSpent" value="7832000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-132" width="1296" height="1010" extended-state="7" />
+    <frame x="1358" y="-132" width="1296" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -385,20 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/file_convert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="588" selection-end="588" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/file_upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="57" selection-start="106" selection-end="106" vertical-scroll-proportion="-1.6666666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="31" selection-start="188" selection-end="188" vertical-scroll-proportion="-3.9230769">
@@ -408,7 +394,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="96" selection-end="96" vertical-scroll-proportion="0.041162226">
+        <state line="2" column="31" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/file_convert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="196" selection-end="196" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/file_upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="33" selection-start="2812" selection-end="2812" vertical-scroll-proportion="1.7109678">
           <folding />
         </state>
       </provider>

@@ -7,7 +7,6 @@ class FileUpload{
 
     public function convertToJson($name, $tmp_name){
         if(in_array(end(explode(".", $name)), $this->arrayTypes)){
-            $fileName = $name;
             $fileContent = file_get_contents($tmp_name);
             switch(end(explode(".", $name))){
                 case $this->arrayTypes[0]:
