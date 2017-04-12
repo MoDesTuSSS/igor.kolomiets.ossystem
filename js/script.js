@@ -1,10 +1,14 @@
 $(function(){
     $('#formUpload').on("submit", function(event){
+        event.preventDefault();
         if (typeof $("input[name='type']:checked").val() == 'undefined'){
             alert("Set output type");
             return;
         }
-        console.log($("input[name='type']:checked").val());
+        if ($('#fi1e').get(0).files.length === 0) {
+            alert("Set input file");
+            return;
+        }
         var formData = new FormData();
         formData.append('file', $("#fi1e")[0].files[0]);
         formData.append('type_output', $("input[name='type']:checked").val());
@@ -19,7 +23,6 @@ $(function(){
                 window.location.href = data.file;
             }
         });
-        event.preventDefault();
 
     });
 });

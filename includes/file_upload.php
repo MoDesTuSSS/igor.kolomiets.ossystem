@@ -26,7 +26,7 @@ class FileUpload{
                     $array = $fileContent;
                     break;
                 case $this->arrayTypes[3]:
-                    $data = Spyc::YAMLLoadString($fileContent);
+                    $data = spyc_load($fileContent);
                     $array = json_encode($data);
                     break;
             }
@@ -46,6 +46,7 @@ class FileUpload{
             case $this->arrayTypes[2]:
                 return $json;
             case $this->arrayTypes[3]:
+                return spyc_dump(json_decode($json));
                 break;
         }
     }
@@ -76,14 +77,21 @@ class FileUpload{
         }
     }
 
-
-
-
     function generateCsv($array){
         $str = "";
         foreach($array as $key => $value){
-            if(is_array($value)) $value = implode(",", $value);
-            $str .= $key.", ".$value.'\n';
+            if(array_keys($array) !== range(0, count($array) - 1)){
+                $str .= $key.": ";
+            }
+            if(is_array($value)){
+                $value = $this->generateCsv($value);
+                $str .= PHP_EOL;
+            }
+            if(array_keys($array) !== range(0, count($array) - 1)){
+                $str .= $value.PHP_EOL;
+            }else{
+                $str .= $value.", ";
+            }
         }
         return $str;
     }
