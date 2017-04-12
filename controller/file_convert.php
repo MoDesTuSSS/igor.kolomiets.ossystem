@@ -1,4 +1,5 @@
 <?php
+include_once("../includes/Spyc.php");
 include_once("../includes/file_upload.php");
 
 if(!empty($_POST['type_output']) && isset($_POST['type_output'])){

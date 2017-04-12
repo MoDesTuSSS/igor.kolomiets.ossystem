@@ -26,8 +26,9 @@ class FileUpload{
                     $array = $fileContent;
                     break;
                 case $this->arrayTypes[3]:
-                    /*$parsed = simplexml_load_string($fileContent);
-                    var_dump($parsed);*/
+                    $data = Spyc::YAMLLoadString($fileContent);
+                    $array = json_encode($data);
+                    break;
             }
             return $array;
         }else{
